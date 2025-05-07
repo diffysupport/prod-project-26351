@@ -31,7 +31,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: '#cmplz-cookiebanner-container'
+    isolate: "#cmplz-cookiebanner-container\n.genecyAd-eCont\n#INDWrap"
     delay: 5
     scroll: true
     headers:
