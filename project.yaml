@@ -1,0 +1,48 @@
+basic:
+    name: 'NAVC Pub - TVP'
+    environments:
+        production: 'https://todaysveterinarypractice.com/'
+        staging: 'https://navc.sitepreview.app/todaysveterinarypractice.com/'
+        development: ''
+    breakpoints:
+        - 360
+        - 1366
+        - 1920
+    pages:
+        - /
+        - clinical_topics/anesthesiology
+        - column/algorithmic-insights
+        - continuing-education-for-veterinarians
+        - resources
+        - resources/clinic-resources
+        - soundbytes
+        - research-wrapped
+        - about
+        - advertising-opportunity
+        - past-issues
+        - nutrition/preventing-malnutrition-in-critical-care-patients
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 5
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: '1'
+        workers_nonproduction: '1'
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
