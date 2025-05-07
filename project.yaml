@@ -31,7 +31,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
+    isolate: '#cmplz-cookiebanner-container'
     delay: 5
     scroll: true
     headers:
